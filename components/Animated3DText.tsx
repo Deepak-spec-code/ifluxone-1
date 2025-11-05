@@ -1,8 +1,10 @@
 import React from 'react';
+// import Navbar from './Navbar';
 
 const CoreLogo: React.FC = () => {
   return (
     <div className="relative text-center z-20">
+      {/* <Navbar/> */}
       <h1
         className="font-black tracking-widest uppercase text-6xl md:text-8xl lg:text-9xl text-transparent bg-clip-text bg-gradient-to-r from-cyan-300 to-fuchsia-500 opacity-0"
         style={{
